@@ -41,7 +41,7 @@ jobs:
           script: |
             eval "$(ssh-agent -s)"
             ssd-add ~/.ssh/senpro-ssh
-            cd ~/senpro/456374/modul101/senpro-github-action
+            cd ~/senpro/463592/modul101/senpro-github-action
             git restore .
             git pull origin main
             npm install
