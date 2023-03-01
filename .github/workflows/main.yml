@@ -6,11 +6,11 @@ on:
     
     jobs:
         test-build:
-            runs-on: unbuntu-latest
+            runs-on: ubuntu-latest
             
             strategy:
                 matrix:
-                node-version: [16.x]
+                    node-version: [16.x]
             
             steps:
                 - uses: actions/checkout@v2
